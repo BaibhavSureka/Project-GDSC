@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project 1 [ GDSC ]</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		.card:hover {
+			box-shadow: 0 8px 16px 0 rgb(118, 118, 182);
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-secondary">
+		<div class="container-fluid">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+			<a class="navbar-brand" href="#">Hotel Search</a>
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Pricing</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Listing</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link">Contact Us</a>
+			  </li>
+			</ul>
+			<form class="d-flex" role="search">
+			  <input class="form-control me-2" type="search" placeholder="Search hotel" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-sm-3">
+				<h4>Filter</h4>
+				<p>Sort By:</p>
+				<div class="form-check">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="sort" value="alphabetical" checked>Alphabetical
+				  </label>
+				</div>
+				<div class="form-check">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="sort" value="reverse-alphabetical">Reverse Alphabetical
+				  </label>
+				</div>
+			</div>
+			<div class="col-sm-9">
+				<h4>Results</h4>
+				<div class="row">
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://www.sunestates.com/data/images/boutique-villas-in-goa-india/_DSC9434.jpg" alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Glass Door Villa</h5>
+								<p class="card-text">New Delhi India<br>20 km from India Gate</p>
+								<a href="#" class="btn btn-primary">Book Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://www.trawell.in/blog/wp-content/uploads/2017/07/Kumarakom.jpg" alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Nature's Lap Villa </h5>
+								<p class="card-text">Kerela, India<br>10 km from main city</p>
+								<a href="#" class="btn btn-primary">Book Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7d/cf/44/jai-mahal-palace.jpg?w=700&h=-1&s=1" alt="Card image">
+								<div class="card-body">
+									<h5 class="card-title">Crown Plaza</h5>
+										<p class="card-text">Jaipur, India<br>2 km from Hawamahal</p>
+										<a href="#" class="btn btn-primary">Book Now</a>
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg" alt="Card image">
+								<div class="card-body">
+									<h5 class="card-title">Umaid Mahal</h5>
+										<p class="card-text">Jaipur, India<br>The Royal for Royals</p>
+										<a href="#" class="btn btn-primary">Book Now</a>
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://www.udaipurblog.com/wp-content/uploads/2018/05/6-taj-lake-palace.jpg" alt="Card image">
+								<div class="card-body">
+									<h5 class="card-title">Lake Palace</h5>
+										<p class="card-text">Udaipur, India<br>Experience the calmness and sunset </p>
+										<a href="#" class="btn btn-primary">Book Now</a>
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-4 mb-3">
+						<div class="card">
+							<img class="card-img-top" src="https://cimages.elitehavens.com/images/gallery/lowres/P00461/Silvio%20-%20Villa%20A%20-%20Listing.jpg" alt="Card image">
+								<div class="card-body">
+									<h5 class="card-title">Elite Heavens</h5>
+										<p class="card-text">Goa, India<br>Welcome to your home</p>
+										<a href="#" class="btn btn-primary">Book Now</a>
+								</div>
+						</div>
+					</div>
+	
+					<footer class="text-center text-white" style="background-color: #caced1;">
+						<div class="container p-4">
+						  <section class="">
+							<div class="row">
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7d/cf/44/jai-mahal-palace.jpg?w=700&h=-1&s=1"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://www.sunestates.com/data/images/boutique-villas-in-goa-india/_DSC9434.jpg"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://cimages.elitehavens.com/images/gallery/lowres/P00461/Silvio%20-%20Villa%20A%20-%20Listing.jpg"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://www.trawell.in/blog/wp-content/uploads/2017/07/Kumarakom.jpg"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://upload.wikimedia.org/wikipedia/commons/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+								<div
+								  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+								  data-ripple-color="light"
+								>
+								  <img
+									src="https://www.udaipurblog.com/wp-content/uploads/2018/05/6-taj-lake-palace.jpg"
+									class="w-100"
+								  />
+								  <a href="#!">
+									<div
+									  class="mask"
+									  style="background-color: rgba(251, 251, 251, 0.2);"
+									></div>
+								  </a>
+								</div>
+							  </div>
+							</div>
+						  </section>
+						 
+						</div>
+				
+						<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+						  © 2023 Copyright Baibhav Sureka
+						</div>
+						
+					  </footer>
+							
